@@ -1,0 +1,6 @@
+<ng-container *featureToggled="toggleName; else notEnabled">
+    <ng-content></ng-content>
+</ng-container>
+<ng-template #notEnabled>
+    <ng-content select="notEnabled"></ng-content>
+</ng-template>

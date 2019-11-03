@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "bullet-train": [
+        "dist/bullet-train"
+      ],
+      "bullet-train/*": [
+        "dist/bullet-train/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
